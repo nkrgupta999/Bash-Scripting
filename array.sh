@@ -8,3 +8,8 @@ echo "Array Length is ${#myArray[@]}"
 echo "The elemenst from index 1 is: ${myArray[*]:1}"
 # acess array elements from specific index to the number of count of elements like we starts from index 1, then they count 4 elements (they include index 1) .
 echo "The specific range of element in the array : ${myArray[*]:1:4} "
+# Update Array
+# Enter or Add another values into the existing array
+myArray+=(Bash Scrpting 99.99 true)
+echo "After adding the value in the existing array: ${myArray[@]} "
+
