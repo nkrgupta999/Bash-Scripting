@@ -6,4 +6,5 @@ echo "My array looks like: ${myArray[10]}" # printing the 10th index element
 echo "Array Length is ${#myArray[@]}"
 # Accessing all elements from index 1 to end of the array
 echo "The elemenst from index 1 is: ${myArray[*]:1}"
-
+# acess array elements from specific index to the number of count of elements like we starts from index 1, then they count 4 elements (they include index 1) .
+echo "The specific range of element in the array : ${myArray[*]:1:4} "
