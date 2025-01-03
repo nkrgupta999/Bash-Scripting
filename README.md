@@ -15,4 +15,8 @@
 	- Acessing elements
 	- Accessing From particular indexing
 	- Accessing from particular indexing with a number of elements count
+- Associate Array
+	- Declaration of associate array
+	- Entering the single key-value pair at a time
+	- Entering the multiple key-value pair at a time
 
