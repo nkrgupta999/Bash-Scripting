@@ -4,6 +4,6 @@ echo "array looks like : ${myArray[@]}" #priting all the elements of the array
 echo "My array looks like: ${myArray[10]}" # printing the 10th index element
 # Array length
 echo "Array Length is ${#myArray[@]}"
-# Accessing all elements from index 1
+# Accessing all elements from index 1 to end of the array
 echo "The elemenst from index 1 is: ${myArray[*]:1}"
 
