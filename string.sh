@@ -10,4 +10,6 @@ echo "After replacing the string : ${repl}"
 #Extract the sub string in the main string
 substr=${str:2:6} #include index (2) and count (6) character include 'space'
 echo "The sub string is : ${substr}"
-
+#Upper and Lower Case of the string
+echo "The Upper case of the string : ${str^^}" # ^^-denote the upper case 
+echo "The Lower case of the string : ${str,,}" # ,,-denote the lower case
