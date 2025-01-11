@@ -27,5 +27,8 @@
 	- Extract OR slice the sub string 
 	- Convert into Upper case
 	- Convert into Lower case
+- User Input
+	- without prompt
+	- with prompt
 
 
