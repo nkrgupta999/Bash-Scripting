@@ -70,6 +70,9 @@ Before using the scripts, ensure the following:
 - User Input
 	- without prompt
 	- with prompt
+- Operator
+	- Airthmatic Operator
+		- Using let keyword
 
 ---
 
