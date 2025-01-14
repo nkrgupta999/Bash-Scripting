@@ -23,3 +23,16 @@ elif [ $a -eq $b ];then
 else 
 	echo "The operation is end."
 fi
+#4. case statement (Choice)
+read -p "Enter your number in the range of 1-3 : " age
+case $age in
+	1)
+		echo "You entered is One";;
+	2)
+		echo "You entered is Two";;
+	3)
+		echo "You enetered is Three";;
+	*)
+		echo "You enetered out of the range";;
+esac
+
