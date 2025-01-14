@@ -73,7 +73,18 @@ Before using the scripts, ensure the following:
 - Operator
 	- Airthmatic Operator
 		- Using let keyword
-
+		- Using (()) symbol with airthmatic and expression operations
+	- Comparision Operator
+		-Equal to
+		- Greater than
+		- Greater than equal to
+		- Less than
+		- Less than equal to
+		- Not equal to
+	- Logical Operator
+		- AND Operator
+		- OR Operator
+	- Ternary Operator
 ---
 
 ## Contributing
