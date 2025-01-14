@@ -61,3 +61,13 @@ if [ $a -gt 5 ] && [ $b -lt 10 ]; then
 else
 	echo "One or both conditions are false"
 fi
+#2. Or Opeartor (||) Any one condition true/valid/correct
+a=10 
+b=15 
+if [ $a -gt 5 ] || [ $b -lt 10 ]; then
+	echo "At least one condition is true"
+else
+	echo "Neither condition is true"
+fi
+
+
