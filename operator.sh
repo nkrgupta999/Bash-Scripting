@@ -35,7 +35,7 @@ if [ $abc -ge $def ];then #we can also use '-gt'
 else
 	echo "1st Value is less than another value"
 fi
-#3. less than (-lt) and less than equal to (-le)
+#3. Less than (-lt) and less than equal to (-le)
 aa=200
 bb=100
 if [ $aa -lt $bb ];then # we can also use '-le' 
@@ -43,3 +43,12 @@ if [ $aa -lt $bb ];then # we can also use '-le'
 else
 	echo "1st value is greater than another value"
 fi
+#4. Not equal to : -ne
+p=100
+q=100
+if [ $p -ne $q ];then
+	echo "The value is not equal "
+else
+	echo "The value is equal"
+fi
+
