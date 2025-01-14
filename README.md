@@ -85,6 +85,11 @@ Before using the scripts, ensure the following:
 		- AND Operator
 		- OR Operator
 	- Ternary Operator
+- Conditional Statement
+	-If statement
+	-If-Else statement
+	-Elif (else-if) statement
+	-Case statement (choice based)
 ---
 
 ## Contributing
