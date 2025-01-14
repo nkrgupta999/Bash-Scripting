@@ -30,8 +30,16 @@ fi
 #2. Greater than (-gt) and greater than equal to (-ge) 
 abc=100
 def=500
-if [ $abc -ge $def ];then
+if [ $abc -ge $def ];then #we can also use '-gt'
 	echo "1st value is greater than another value"
 else
 	echo "1st Value is less than another value"
+fi
+#3. less than (-lt) and less than equal to (-le)
+aa=200
+bb=100
+if [ $aa -lt $bb ];then # we can also use '-le' 
+	echo "1st value is less than another value"
+else
+	echo "1st value is greater than another value"
 fi
