@@ -20,4 +20,11 @@ echo "The value of expression: $exprs"
 #B. comparision Operator
 #1. Equal to : '-eq','=='
 echo "-----------------------------------"
+ai=20
+ba=50
+if [ $ai -eq $ba ];then # we can also use == in the place of '-eq'
+	echo "The value is equal to another value "
+else
+	echo "The value is not equal to another value"
+fi
 
