@@ -51,4 +51,13 @@ if [ $p -ne $q ];then
 else
 	echo "The value is equal"
 fi
-
+#C. Logical Operator
+#1. And Operator (&&) Both/All condition must be true/correct/valid
+a=10
+b=5
+echo "-----------------------------------------"
+if [ $a -gt 5 ] && [ $b -lt 10 ]; then
+	echo "Both conditions are true"
+else
+	echo "One or both conditions are false"
+fi
