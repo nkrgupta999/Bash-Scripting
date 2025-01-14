@@ -27,4 +27,11 @@ if [ $ai -eq $ba ];then # we can also use == in the place of '-eq'
 else
 	echo "The value is not equal to another value"
 fi
-
+#2. Greater than (-gt) and greater than equal to (-ge) 
+abc=100
+def=500
+if [ $abc -ge $def ];then
+	echo "1st value is greater than another value"
+else
+	echo "1st Value is less than another value"
+fi
