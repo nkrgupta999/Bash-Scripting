@@ -69,5 +69,10 @@ if [ $a -gt 5 ] || [ $b -lt 10 ]; then
 else
 	echo "Neither condition is true"
 fi
-
+#D. Ternary Operator
+#In ternary Operator we use both AND and OR operator combine
+a=200
+b=100
+echo "-----------------------------------------"
+[ $a -gt $b ] && echo "A is greater than B" || echo "B is greter than A"
 
