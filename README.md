@@ -71,11 +71,11 @@ Before using the scripts, ensure the following:
 	- without prompt
 	- with prompt
 - Operator
-	- Airthmatic Operator
+	- Arithmetic Operator
 		- Using let keyword
-		- Using (()) symbol with airthmatic and expression operations
-	- Comparision Operator
-		-Equal to
+		- Using the (( )) symbol with arithmetic and expression operations
+	- Comparison Operator
+		- Equal to
 		- Greater than
 		- Greater than equal to
 		- Less than
@@ -86,10 +86,10 @@ Before using the scripts, ensure the following:
 		- OR Operator
 	- Ternary Operator
 - Conditional Statement
-	-If statement
-	-If-Else statement
-	-Elif (else-if) statement
-	-Case statement (choice based)
+	- If statement
+	- If-Else statement
+	- Elif (else-if) statement
+	- Case statement (choice-based)
 ---
 
 ## Contributing
