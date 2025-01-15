@@ -92,7 +92,7 @@ Before using the scripts, ensure the following:
 	- Case statement (choice-based)
 - Looping Statement
 	- for loop
-	- for loop with range
+		- for loop with array and range
 	- while loop
 	- until loop
 	- Infinite loop
