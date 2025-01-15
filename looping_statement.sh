@@ -29,5 +29,6 @@ do
 	((count++))
 done
 echo "-----------------------------------------"
-
+#5. Infinite Loop
+#A. for-infinite loop
 
