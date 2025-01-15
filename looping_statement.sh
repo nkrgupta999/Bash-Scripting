@@ -42,4 +42,10 @@ do
 	echo "while infinite loop"
 done
 echo "-----------------------------------------"
-#c. 
+#c.Until infinite loop
+until false;
+do
+	echo "until infinite loop"
+done
+
+
