@@ -47,5 +47,25 @@ until false;
 do
 	echo "until infinite loop"
 done
-
+echo "-----------------------------------------"
+#6. Select loop
+msg="Choose an option"
+# fru=("Apple" "mango" "Banana")-> demo purpose
+select fruit in Apple mango banana Exit;
+do
+	case $fruit in
+		'Apple')
+			echo "You select apple as a fruit";;
+		'banana')
+			echo "you select banana as a fruit";;
+		'mango')
+			echo "You select mango as a fruit";;
+		'Exit')
+			echo "You choose exit from this section"
+			break;;
+		*)
+			echo "Invalid Choice Choose in the option only "
+	esac
+done
+echo "------------------------------------------------"
 
