@@ -26,7 +26,7 @@ count=1
 until [$count -gt 10];
 do
 	echo "The Value is: $count"
-	(($count++))
+	((count++))
 done
 echo "-----------------------------------------"
 
