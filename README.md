@@ -90,6 +90,16 @@ Before using the scripts, ensure the following:
 	- If-Else statement
 	- Elif (else-if) statement
 	- Case statement (choice-based)
+- Looping Statement
+	- for loop
+	- for loop with range
+	- while loop
+	- until loop
+	- Infinite loop
+		- for infinite loop
+		- while infinite loop
+		- until infinite loop
+	- select loop
 ---
 
 ## Contributing
