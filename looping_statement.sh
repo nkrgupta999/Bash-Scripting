@@ -30,11 +30,16 @@ do
 done
 echo "-----------------------------------------"
 #5. Infinite Loop
-#A. for-infinite loop
+#a. for-infinite loop
 for ((;;));
 do
 	echo "hello for Infinite loop"
 done
 echo "--------------------------------------"
 #b. while infinite loop
-while:;
+while :;
+do
+	echo "while infinite loop"
+done
+echo "-----------------------------------------"
+#c. 
