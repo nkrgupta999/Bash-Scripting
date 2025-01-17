@@ -9,7 +9,7 @@
 # Function calling
 # function_name #-----------we not need any () brackets we simply calling by function name.
 #1. Basic function
-greet () {
+greet () { # function decleration
 	echo "Hello from greet function in bash Scripting"
 }
 greet	#function calling
