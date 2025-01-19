@@ -28,3 +28,15 @@ hello () {
 }
 hello "john" #with own parameter / argument / value
 hello #with default parameter /argument / value
+#4. Recursion function
+echo "-----------------------------"
+factorial () {
+	if [ $1 -le 1 ];then
+		echo 1
+	else 
+		prev=$(factorial $(( $1 -1 )))
+		echo $(( $1 * prev ))
+	fi
+}
+result=$(factorial 5)
+echo "The factorial of your given value is: $result"
