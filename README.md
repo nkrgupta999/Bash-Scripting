@@ -100,6 +100,14 @@ Before using the scripts, ensure the following:
 		- while infinite loop
 		- until infinite loop
 	- select loop
+- Function
+	- Function decleration
+	- Function calling
+	- Basic function
+	- parameter / agrument function
+	- default parameter / argumnet function
+	- recursion function
+
 ---
 
 ## Contributing
