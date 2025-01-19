@@ -1,12 +1,12 @@
 #!/bin/bash
 #Function
-#Function decleration
+#A. Function decleration
 #function_name () {
 	#body of the function or task or commands
 #	echo "Sample function"
 #}
 
-# Function calling
+#B. Function calling
 # function_name #-----------we not need any () brackets we simply calling by function name.
 #1. Basic function
 greet () { # function decleration
@@ -14,7 +14,17 @@ greet () { # function decleration
 }
 greet	#function calling
 #2. parameter function
+echo "----------------------------------"
 greetuser () {
 	echo "Hello $1" #$1 is used for accessing the parameter / argument when we call the function with the paramenter
 }
 greetuser "Nitin" #In "" we pass the argument / parameter if we pass any value we simple pass the value not need the ""
+#3. Default value parameter function
+echo "--------------------------------"
+hello () {
+	local_name=${1:-Bash Scripting} #local variable decleration, scope only in the function not iutside the function.
+	echo "Hello $local_name"
+
+}
+hello "john" #with own parameter / argument / value
+hello #with default parameter /argument / value
